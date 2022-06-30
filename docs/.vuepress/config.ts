@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -16,4 +17,11 @@ export default defineUserConfig({
     },
   },
   theme,
+  plugins: [
+    docsearchPlugin({
+      appId: "11",
+      apiKey: '<API_KEY>',
+      indexName: '<INDEX_NAME>',
+    }),
+  ],
 });

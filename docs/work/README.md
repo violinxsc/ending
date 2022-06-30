@@ -1,9 +1,9 @@
 ---
-title: 经验之谈
+title: 二生三
 index: false
 icon: creative
 category:
-  - 经验之谈
+  - 二生三
 ---
 
 ## some exp during working
