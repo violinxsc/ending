@@ -10,11 +10,11 @@ export default defineUserConfig({
       title: "终",
       description: "终",
     },
-    "/en/": {
-      lang: "en-US",
-      title: "Ending",
-      description: "Ending",
-    },
+    // "/en/": {
+    //   lang: "en-US",
+    //   title: "Ending",
+    //   description: "Ending",
+    // },
   },
   theme,
   plugins: [

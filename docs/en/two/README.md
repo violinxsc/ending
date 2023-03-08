@@ -1,9 +1,9 @@
 ---
-title: Guides
+title: Two in one
 index: false
 icon: creative
 category:
-  - Guide
+  - Two in one
 ---
 
 ## Catalog

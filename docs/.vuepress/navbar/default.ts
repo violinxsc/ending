@@ -1,14 +1,14 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const _ = navbar([
-  "/",
-  { text: "一生二", icon: "creative", link: "/guide/" },
-  { text: "二生三", icon: "creative", link: "/work/" },
+  { text: "道生一", icon: "home", link: "/" },
+  { text: "一生二", icon: "creative", link: "/two/" },
+  { text: "二生三", icon: "creative", link: "/three/" },
   {
     text: "三生万物",
-    icon: "edit",
-    link: "/posts/",
-    prefix: "/posts/",
+    icon: "creative",
+    link: "/things/",
+    prefix: "/things/",
     children: [
       {
         text: "文章 1-4",

@@ -1,9 +1,9 @@
 ---
-title: 二生三
+title: Three in two
 index: false
 icon: creative
 category:
-  - 二生三
+  - Three in two
 ---
 
 ## some exp during working

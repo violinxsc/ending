@@ -33,31 +33,21 @@ export default hopeTheme({
         intro: "/intro.html",
       },
     },
-    "/zh/": {
-      navbar: navbar.zh,
-      sidebar: sidebar.zh,
-      footer: "千里之行，始于足下",
-      displayFooter: true,
-      blog: {
-        description: "朝闻道，夕死可矣",
-        intro: "/zh/intro.html",
-      },
-    },
     "/en/": {
       navbar: navbar.en,
       sidebar: sidebar.en,
-      footer: "千里之行，始于足下",
+      footer: "A thousand mile trip begins with one step",
       displayFooter: true,
       blog: {
-        description: "朝闻道，夕死可矣",
-        intro: "/zh/intro.html",
+        description: "When I hear you voice, I die at night",
+        intro: "/en/intro.html",
       },
     },
   },
   encrypt: {
     config: {
       "/guide/encrypt.html": ["1234"],
-      "/zh/guide/encrypt.html": ["1234"],
+      "/en/guide/encrypt.html": ["1234"],
     },
   },
   plugins: {

@@ -2,6 +2,6 @@
 icon: info
 ---
 
-# Intro Page
+# Who Am I
 
-Place your introducation and profile here.
+I come from where I came, I go to where I am going

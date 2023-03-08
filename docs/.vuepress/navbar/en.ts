@@ -1,52 +1,48 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const en = navbar([
-  "/",
-  // "/home",
-  { text: "Guide", icon: "creative", link: "/guide/" },
+  { text: "One in things", icon: "home", link: "/en/" },
+  { text: "Two in one", icon: "creative", link: "/en/two/" },
+  { text: "Three in two", icon: "creative", link: "/en/three/" },
   {
-    text: "Posts",
+    text: "Three in all",
     icon: "edit",
-    prefix: "/posts/",
+    link: "/en/things/",
+    prefix: "/en/things/",
     children: [
       {
-        text: "Articles 1-4",
+        text: "文章 1-4",
         icon: "edit",
         prefix: "article/",
         children: [
-          { text: "Article 1", icon: "edit", link: "article1" },
-          { text: "Article 2", icon: "edit", link: "article2" },
+          { text: "文章 1", icon: "edit", link: "article1" },
+          { text: "文章 2", icon: "edit", link: "article2" },
           "article3",
           "article4",
         ],
       },
       {
-        text: "Articles 5-12",
+        text: "文章 5-12",
         icon: "edit",
         children: [
           {
-            text: "Article 5",
+            text: "文章 5",
             icon: "edit",
             link: "article/article5",
           },
           {
-            text: "Article 6",
+            text: "文章 6",
             icon: "edit",
             link: "article/article6",
           },
           "article/article7",
           "article/article8",
+          "article/article9",
+          "article/article10",
+          "article/article11",
+          "article/article12",
         ],
       },
-      { text: "Article 9", icon: "edit", link: "article9" },
-      { text: "Article 10", icon: "edit", link: "article10" },
-      "article11",
-      "article12",
     ],
-  },
-  {
-    text: "Theme Docs",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/",
-  },
+  }
 ]);

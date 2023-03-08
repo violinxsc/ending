@@ -2,62 +2,51 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const _ = sidebar({
   "/": [
-    "",
-    "home",
-    "slide",
+    {
+      text: "道生一",
+      icon: "home",
+      prefix: "",
+      link: "/",
+      children: "structure",
+    }
   ],
-  "/guide/": [
+  "/two/": [
     {
       text: "一生二",
       icon: "creative",
       prefix: "",
-      link: "/guide/",
+      link: "/two/",
       children: "structure",
     },
   ],
-  "/work/": [
+  "/three/": [
     {
       text: "二生三",
-      icon: "note",
+      icon: "creative",
       prefix: "",
-      link: "/work/",
+      link: "/three/",
       children: "structure",
     },
   ],
-  "/posts/": [
+  "/things/": [
     {
       text: "三生万物",
-      icon: "note",
-      prefix: "",
-      link: "/posts/",
+      icon: "creative",
+      prefix: "/things/",
       children: [
         {
-          text: "文章 1-4",
+          text: "1-4",
           icon: "note",
           collapsable: true,
           prefix: "article/",
           children: ["article1", "article2", "article3", "article4"],
         },
         {
-          text: "文章 5-12",
+          text: "5-12",
           icon: "note",
           collapsable: true,
-          children: [
-            {
-              text: "文章 5-8",
-              icon: "note",
-              collapsable: true,
-              prefix: "article/",
-              children: ["article5", "article6", "article7", "article8"],
-            },
-            {
-              text: "文章 9-12",
-              icon: "note",
-              collapsable: true,
-              prefix: "article/",
-              children: ["article9", "article10", "article11", "article12"],
-            },
-          ],
+          prefix: "article/",
+          children: ["article5", "article6", "article7", "article8", "article9", "article10", "article11", "article12"]
         },
       ],
     },
